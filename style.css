@@ -19,8 +19,12 @@ body {
     font-size: 28px;
     margin-top:4px;
 }
-#secondiconhead{
-    margin-left:375px;
+.left-side{
+    margin-left:10px;
+    font-size: 17px;
+}
+.ellipsis{
+    margin-left:auto;
 }
 
 p {
@@ -30,36 +34,22 @@ p {
 
 img {
     width: 100%;
-    margin-top: -5px;
 }
 
-.icons {
-    font-size: 25px;
-    display: flex;
-    margin-left: 16px;
-    margin-top: 12px;
-    margin-bottom: 8px;
+.icons-container{
+    display:flex;
+    padding: 15px;
+    font-size:28px;
 }
 
-.icons i:nth-child(1) {
-    margin-right: 9px;
-}
-
-.icons i:nth-child(2) {
-    margin-right: 9px;
-}
-
-.icons i:nth-child(3) {
-    margin-right: 355px;
+.icons-right{
+    margin-left:auto;
 }
 
 .likes {
-    margin-left: 14px;
-    margin-top: 10px;
+    padding-left:15px;
+}
+.description{
+    padding: 15px 0px 15px 15px;
 }
 
-.description {
-    padding: 20px;
-    margin-left: -3px;
-    margin-top:-10px;
-}
